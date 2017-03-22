@@ -1,0 +1,10 @@
+[package]
+name = "nuts"
+version = "0.1.0"
+authors = ["mike stedman <github@ravuya.com>"]
+
+[dependencies]
+nalgebra = "*"
+
+[dependencies.kiss3d]
+git = "https://github.com/sebcrozet/kiss3d"
